@@ -13,6 +13,11 @@ import Portfolio from "../../assets/imgproject/portfolio.png";
 import RsSuportes from "../../assets/imgproject/rssuporte.png";
 import uniformes from "../../assets/imgproject/uniforme.png"
 import lavanderia from "../../assets/imgproject/site-lavanderia .png"
+import EngenhariaCivil from "../../assets/imgproject/site-engenharia.png"
+import MSPobras from "../../assets/imgproject/mspobras.png"
+import implement from"../../assets/imgproject/implement.png"
+import lista from"../../assets/imgproject/listainfoproduto.png"
+import telemedicina from"../../assets/imgproject/telemedicina.png"
 
 export interface Project {
   id: number;
@@ -25,30 +30,87 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+
   {
     id: 1,
+    title: "Site telemedicinamedcentersaude",
+    image: telemedicina,
+    description:
+      "Projeto completo de um site de telemedicna para vendas de planos de saude", 
+    github: "",
+    deploy: "https://telemedicinamedcentersaude.com.br/",
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
+  },
+
+  {
+    id: 1,
+    title: "Site de venda infoproduto",
+    image: lista,
+    description:
+      "Projeto completo de um site para vendas de um infoproduto", 
+    github: "",
+    deploy: "https://listadefornecedoresmoedaantiga.netlify.app/",
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
+  },
+
+
+  {
+    id: 1,
+    title: "Site da Implement Comunicação",
+    image: implement,
+    description:
+      "Projeto completo de um site para Implement Comunicação", 
+    github: "",
+    deploy: "https://canalimplement.com.br",
+    technologies: ["wordpress", "elementor"],
+  },
+
+  {
+    id: 1,
+    title: "Site de MSP Obras e Pintura",
+    image: MSPobras,
+    description:
+      "Projeto completo de um site para uma empresa de obras e pinturas para divulgar seus serviços", 
+    github: "",
+    deploy: "https://mspobras.com.br/home/",
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
+  },
+
+  {
+    id: 2,
+    title: "Site de Engenharia Civil",
+    image: EngenhariaCivil,
+    description:
+      "Projeto completo de um site para um engenheiro civil para divulgar seus serviços", 
+    github: "",
+    deploy: "https://jmsengenharia.com/",
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
+  },
+
+  {
+    id: 3,
     title: "Site Lavanderia Lavup Toledo-PR",
     image: lavanderia,
     description:
       "Projeto completo de um site para uma Lavanderia de Auto Atendimento", 
     github: "",
     deploy: "https://lavanderiaautoatendimentolavuptoledo.com/",
-    technologies: ["Html", "Css", "JavaScript"],
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
   },
 
   {
-    id: 1,
+    id: 4,
     title: "Site Loja Uniformes Personalizados",
     image: uniformes,
     description:
       "Projeto completo de um site para uma loja de uniformes personalizados", 
     github: "",
     deploy: "https://chamauniformespersonalizados.netlify.app/",
-    technologies: ["Html", "Css", "JavaScript"],
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap"],
   },
 
   {
-    id: 1,
+    id: 5,
     title: "Code Burger",
     image: Codburger,
     description:
@@ -67,7 +129,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 2,
+    id: 6,
     title: "Landing Page Car",
     image: CarProject,
     description:

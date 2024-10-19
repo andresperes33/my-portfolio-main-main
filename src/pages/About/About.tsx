@@ -103,38 +103,28 @@ const About: React.FC = () => {
           <SkillIcon src={techIcons.Express} alt="Express" />
         </SkillIcons>
         <TimelineSection>
-          <TimelineColumn>
-            <h2>Educação</h2>
-            <TimelineItem>
-              <TimelineTitle>
-                Análise e Desenvolvimento de Sistemas
-              </TimelineTitle>
-              <TimelineDate>2024 - 2026</TimelineDate>
+          <>
+            <h2></h2>
+            <>
+              <>
+                
+              </>
+              <></>
               <TimelineDescription>
-                Estudando atualmente Análise e Desenvolvimento de Sistemas, com
-                foco em arquitetura de software e desenvolvimento de aplicações.
-                Experiência em modelagem de dados, gestão de projetos e
-                requisitos.
+                
               </TimelineDescription>
-            </TimelineItem>
-          </TimelineColumn>
-          <TimelineColumn>
-            <h2>Curso</h2>
-            <TimelineItem>
-              <TimelineTitle>FullStack - DevClub</TimelineTitle>
-              <TimelineDate>2023 - 2024</TimelineDate>
+            </>
+          </>
+          <>
+            <h2></h2>
+            <>
+              <TimelineTitle></TimelineTitle>
+              <TimelineDate></TimelineDate>
               <TimelineDescription>
-                A formação destaca uma abordagem prática com projetos reais
-                desde o início, onde os alunos aprendem HTML/CSS, JavaScript,
-                TypeScript, Frameworks como React para frontend e Node.js para
-                backend, com ênfase no uso de Docker para gerenciamento de
-                contêineres. O treinamento inclui o uso de ferramentas como
-                Postgres, MongoDB,, Insomnia para testes de API, e Git e GitHub
-                para controle de versão e colaboração, além do consumo eficaz de
-                APIs de terceiros.
+                
               </TimelineDescription>
-            </TimelineItem>
-          </TimelineColumn>
+            </>
+          </>
         </TimelineSection>
       </PageContainer>
     </ContactContainer>

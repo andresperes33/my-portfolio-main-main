@@ -12,6 +12,8 @@ import Restfull from "../../assets/icons/restful.jpg";
 import StyledComponents from "../../assets/icons/styled-components.jpg";
 import TypeScript from "../../assets/icons/typescript.png";
 import ViteIcon from "../../assets/icons/vite.png";
+import Wordpress from"../../assets/icons/wordpress.png";
+import Elementor from"../../assets/icons/elementor.png";
 
 export const techIcons: { [key: string]: string } = {
 	React: ReactIcon,
@@ -28,4 +30,6 @@ export const techIcons: { [key: string]: string } = {
 	Express: Express,
 	Restfull: Restfull,
 	Git: Git,
+	wordpress: Wordpress,
+	elementor: Elementor
 };

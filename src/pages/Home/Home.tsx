@@ -59,17 +59,18 @@ const Home: React.FC = () => {
         <Title>André da Silva Peres</Title>
         <SubTitle className="typing">{currentTitle}</SubTitle>
         <Description>
-          Sou desenvolvedor full-stack especializado em React, Next.js,
-          TypeScript e SCSS, com experiência na criação de interfaces modernas e
-          responsivas. Utilizo Vite.js para otimização de projetos e Styled
-          Components para garantir um estilo consistente. Além disso, desenvolvo
-          APIs RESTful com Node.js utilizando TypeScript e faço uso do Insomnia
-          para testar e depurar essas APIs, assegurando alta performance e
-          escalabilidade. Tenho um sólido conhecimento técnico em HTML, CSS,
-          JavaScript e já desenvolvi diversos projetos práticos, aplicando essas
-          habilidades em cenários reais. Estou sempre em busca de novas
-          tecnologias e métodos para aprimorar minhas competências e entregar
-          soluções inovadoras e eficientes.
+          Sou desenvolvedor front-end especializado em HTML, CSS, JavaScript,
+          Bootstrap e Tailwind, com forte experiência na criação de interfaces
+          modernas, responsivas e otimizadas para mecanismos de busca como o
+          Google. Utilizo ferramentas avançadas para garantir que os layouts
+          sejam bem estruturados e com excelente performance em SEO. Além disso,
+          tenho expertise em React e TypeScript, aplicando esses conhecimentos
+          para desenvolver interfaces dinâmicas e escaláveis. Também desenvolvo
+          APIs utilizando Node.js, realizando testes e depuração com ferramentas
+          como Insomnia, o que me permite garantir alta performance e qualidade
+          nas soluções entregues. Com diversos projetos práticos no portfólio,
+          estou sempre em busca de novas tecnologias para aprimorar minhas
+          habilidades e entregar soluções inovadoras e eficientes.
         </Description>
         <ButtonContainer>
           <PrimaryButton to="/contact">Diga Olá!</PrimaryButton>
