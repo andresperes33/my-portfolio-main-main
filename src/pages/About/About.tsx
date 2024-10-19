@@ -11,12 +11,7 @@ import {
   PageContainer,
   SkillIcon,
   SkillIcons,
-  TimelineColumn,
-  TimelineDate,
-  TimelineDescription,
-  TimelineItem,
-  TimelineSection,
-  TimelineTitle,
+ 
 } from "./About.styles";
 
 const About: React.FC = () => {
@@ -102,33 +97,13 @@ const About: React.FC = () => {
           <SkillIcon src={techIcons.Restfull} alt="Restfull" />
           <SkillIcon src={techIcons.Express} alt="Express" />
         </SkillIcons>
-        <TimelineSection>
-          <>
-            <h2></h2>
-            <>
-              <>
-                
-              </>
-              <></>
-              <TimelineDescription>
-                
-              </TimelineDescription>
-            </>
-          </>
-          <>
-            <h2></h2>
-            <>
-              <TimelineTitle></TimelineTitle>
-              <TimelineDate></TimelineDate>
-              <TimelineDescription>
-                
-              </TimelineDescription>
-            </>
-          </>
-        </TimelineSection>
-      </PageContainer>
-    </ContactContainer>
-  );
+        <>
+  {/* Conteúdo removido */}
+</>
+</PageContainer>
+</ContactContainer>
+);
 };
+
 
 export default About;
